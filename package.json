@@ -1,0 +1,25 @@
+{
+  "name": "graphql-node-backend",
+  "version": "1.0.0",
+  "description": "Simple GraphQL server",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrkevinsmithdesign/GraphQL-Node-Backend.git"
+  },
+  "author": "Kevin Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrkevinsmithdesign/GraphQL-Node-Backend/issues"
+  },
+  "homepage": "https://github.com/mrkevinsmithdesign/GraphQL-Node-Backend#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "nodemon": "^1.18.3"
+  }
+}
